@@ -1,0 +1,3 @@
+[submodule "gotmtool"]
+	path = gotmtool
+	url = https://github.com/qingli411/gotmtool.git
