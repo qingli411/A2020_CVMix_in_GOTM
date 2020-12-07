@@ -1,0 +1,25 @@
+info:
+  name: Gotland
+  lat: 57.3
+  lon: 20.0
+  depth: 250.0
+variables:
+  meteo:
+    longname: Meteorology data
+    filename: GotlandBasin.meteo.nc
+    vartype: meteo
+    varname_u10: u10
+    varname_v10: v10
+    varname_slp: slp
+    varname_sat: t2
+    varname_hum: rh
+    varname_cld: tcc
+    outname: meteo.dat
+  precip:
+    longname: Precipitation (m/s)
+    filename: GotlandBasin.meteo.nc
+    vartype: scalar
+    varname: precip
+    scale_factor: 1.0
+    outname: precip.dat
+
